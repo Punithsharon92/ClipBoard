@@ -1,0 +1,298 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #535455;
+}
+
+/* TITLE */
+#title {
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  bottom: 220px;
+}
+
+.title-image {
+  width: 1360px;
+  height: auto;
+}
+
+.title-text {
+  position: relative;
+  bottom: 170px;
+  font-weight: 600;
+  color: #535455;
+}
+
+.title-description {
+  position: relative;
+  bottom: 160px;
+  font-weight: 600;
+  color: #93A1A9;
+  letter-spacing: 1px;
+}
+
+.btns {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  border-radius: 50px 50px 50px 50px;
+  position: relative;
+  bottom: 140px;
+  border-style: inherit;
+  box-shadow: 2px 3px 10px 0 #000000;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+.btnone {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btntwo {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.buttons {
+  padding: 0 25%;
+}
+
+.title-texts {
+  padding: 0 21%;
+}
+
+/* SNIPPETS */
+.comp-img {
+  width: 90%;
+  height: auto;
+}
+
+.images {
+  padding: 0 2%;
+}
+
+.snippet-heading {
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.snippet-para {
+  font-weight: 400;
+  color: #93A1A9;
+}
+
+.para-head {
+  padding: 15%;
+}
+
+.features {
+  padding: 0 10%;
+}
+
+/* CLIPBOARD */
+#clipboard {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.tablet-img {
+  height: auto;
+  width: 65%;
+}
+
+/* Supercharge */
+#supercharge {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.supercharge {
+  padding: 0 10%;
+}
+
+.surcharge-img {
+  padding-bottom: 50px;
+}
+
+/* company logos */
+#company-logos {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.company-logos {
+  padding: 40px;
+}
+
+/* download button */
+.btndownload {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+  border-radius: 50px 50px 50px 50px;
+  border-style: inherit;
+  box-shadow: 2px 3px 10px 0 #000000;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+#Downloadbtn {
+  text-align: center;
+  margin-top: 70px;
+  padding: 0 20%;
+}
+
+/* Footer */
+.foot {
+  padding-bottom: 0;
+  background-color: #D9D9D9;
+  height: 150px;
+  width: auto;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.logo-foot {
+  width: 15%;
+  height: auto;
+  position: relative;
+  left: 125px;
+  top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.content {
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 35px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Social {
+  padding: 1%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.social-foot {
+  position: relative;
+  left: 100px;
+  top: 65px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 0px;
+}
+
+.firstcontent {
+  margin-top: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.secondcontent {
+  margin-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.contentadjust {
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+@media(max-width:991px) {
+
+  .row {
+    text-align: center;
+  }
+
+  .features {
+    padding: 0 25%;
+  }
+
+  .foot {
+    padding-bottom: 0;
+    background-color: #D9D9D9;
+    height: 550px;
+    width: auto;
+    margin-top: 70px;
+    margin-bottom: 0;
+  }
+
+  .logo-foot {
+    width: 12%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    color: hsl(210, 10%, 33%);
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .contentadjust {
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .secondcontent {
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .social-foot {
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 45px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 0px;
+  }
+}
+@media(max-width:500px) {
+  body {
+    background: #000000 url(images\bg-header-mobile.png)
+  }
+  .title-image{
+    width: 500px;
+    height: 345px;
+  }
+}
